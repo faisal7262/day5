@@ -8,7 +8,7 @@ read -p "Enter fift two digit :" e
 
 echo sum=$(( $a+$b+$c+$d+$e ));
 
-#bc <<< "scale=2; $sum/5"
+$ bc (( $sum/5 ));
 
 
 
