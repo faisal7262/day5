@@ -14,7 +14,7 @@ case $number in
 	;;
 	2)
 	read -p "Enter inch Value :" inch;
-	$(echo "$inch / 12" | bc )
+	$(echo "$inch / 12" | bc );
 	;;
 	3)
 	read -p "Enter feet Value :" feet;
