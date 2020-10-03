@@ -1,6 +1,6 @@
 #!/bin/bash -x
 # above line for debug the program..
-j=100;
-k=100;
-l=$(($j + $k))
-echo $l
+q=100;
+w=100;
+e=$(($q + $w))
+echo $e
